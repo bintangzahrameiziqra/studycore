@@ -13,7 +13,7 @@ async rewrites() {
   return [
     {
       source: "/api/:path*",
-      destination: "http://72.60.78.25/api/:path*",
+      destination: "http://72.60.78.25:8083/api/:path*",
     },
   ];
 },
